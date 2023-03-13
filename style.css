@@ -53,7 +53,11 @@ header section {
 }
 
 .headerhead {
-  padding: 6vh 8vw;
+  padding: 5vh 8vw;
+}
+
+.firas {
+  margin: 0 8vw;
 }
 
 /*
@@ -69,22 +73,30 @@ header section {
   }
 }
 
-@media (max-width: 720px) {
-  .headerhead {
-  padding: 3vh 3vw;
-  }
+.ahmad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
 .firas {
+  display: flex;
   border-bottom: 2px solid black;
-   align-items: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 992px) {
   .firas{
     border-bottom: none;
-    border-left: 2px solid black;
-    padding-left: 15px;
+    margin: 0;
   }
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
 }
