@@ -6,6 +6,7 @@ let centralArchiveContent = document.getElementById("content-central-archive");
 let libraryAndECenterContent = document.getElementById("content-library-and-e-center");
 let navbarPolicy = document.getElementById("paragraph-bg");
 let paragraphText = document.getElementById("paragraph");
+let aboutHeader = document.getElementById("about-title");
 
 function onClickDiscovery() {
   aboutContent.style.display = "none";
@@ -17,12 +18,14 @@ function onClickDiscovery() {
 }
 
 function onClickAbout() {
+  
   navbarPolicy.style.display = "none";
   databaseContent.style.display = "none";
   centralArchiveContent.style.display = "none";
   libraryAndECenterContent.style.display = "none";
   divisionsContent.style.display = "none";
   aboutContent.style.display = "flex";
+  aboutHeader.style.display = "none";
   discoveryContent.style.display = "none";
 }
 
