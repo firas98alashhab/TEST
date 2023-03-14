@@ -60,13 +60,7 @@ header section {
   margin: 0 8vw;
 }
 
-/*
-@media (max-width: 1600px) {
-  .headerhead {
-    padding: 3vh 3vw;
-  }
-}
-*/
+
 @media (max-width: 720px) {
   .headerhead {
   padding: 3vh 3vw;
@@ -99,4 +93,48 @@ flex: 1;
 margin: auto !important;
 display: flex;
 justify-content: space-between;
+}
+
+.marwa {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.asem {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  opacity: 1;
+}
+.content {
+  padding: 5vh 8vw;
+  
+}
+
+#content-about {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+#content-about h1 {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  #content-about {
+    text-align: center;
+    gap: 4vh;
+  }
+  #content-about h1 {
+    display: block;
+    padding-bottom: 25px;
+    font-weight: 700;
+  }
+}
+
+#content-container #content-about, #content-discovery, #content-divisions, #content-database, #content-central-archive, #content-library-and-e-center {
+  display: none;
 }

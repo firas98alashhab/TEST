@@ -25,41 +25,60 @@
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container-fluid firas">
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0 myButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" style="font-weight: 500;">About</a>
+              <a class="nav-link active asem" aria-current="page" href="#"   onclick="onClickAbout()">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 500;">Discovery</a>
+              <a class="nav-link marwa" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  onclick="onClickDiscovery()">Discovery</a>
               <ul class="dropdown-menu bg-transparent border-0" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Afniah Policy</a></li>
-                <li><a class="dropdown-item" href="#">Code of Ethics</a></li>
-                <li><a class="dropdown-item" href="#">Afniah Froms</a></li>
-                <li><a class="dropdown-item" href="#">Safety and Health Manual</a></li>
-                <li><a class="dropdown-item" href="#">Quality Manual</a></li>
-                <li><a class="dropdown-item" href="#">Afniah CAD Standard</a></li>
+                <li><a class="dropdown-item" href="#" onclick="onClickCodeOfEthics()">Code of Ethics</a></li>
+                <li><a class="dropdown-item" href="#" onclick="onClickAfniahForms()">Afniah Froms</a></li>
+                <li><a class="dropdown-item" href="#" onclick="onClickSafetyAndHealthManual()">Safety and Health Manual</a></li>
+                <li><a class="dropdown-item" href="#" onclick="onClickQualityManual()">Quality Manual</a></li>
+                <li><a class="dropdown-item" href="#" onclick="onClickAfniahCDAStandard()">Afniah CAD Standard</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="font-weight: 500;">Divisions</a>
+              <a class="nav-link marwa" href="#" onclick="onClickDivisions()">Divisions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="font-weight: 500;">Database</a>
+              <a class="nav-link marwa" href="#"  onclick="onClickDatabase()">Database</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="font-weight: 500;">Central Archive</a>
+              <a class="nav-link marwa" href="#"   onclick="onClickCentralArchive()">Central Archive</a>
             </li>
             <li class="nav-item mr-">
-              <a class="nav-link" href="#" style="font-weight: 500">Library and E-Center</a>
+              <a class="nav-link marwa" href="#"    onclick="onClickLibraryAndECenter()">Library and E-Center</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <main class="container-fluid content">
+      <section class="content-container">
+        <div id="content-about">
+          <h1>ABOUT</h1>
+          <p>In Afniah, we seek to create critical dialogue at the national level, not only through the works that we present, but through the direct intellectual contribution in making this systematic architectural criticism that can build the epistemological model. The conviction that we reached during our long learning with people in architectural design is that exchanging ideas with people on the one hand and transferring them into intellectual debate on the national level represents a continuous tributary to experimenting with ideas and developing them. And because we realize that creating such an intellectual climate requires examples that can be shown on systematic architectural analysis and deconstruction, so we have taken into consideration to establish this national intellectual network and build it gradually by putting ideas out in the open and participating in creating young Saudi architectural minds by participating in education.</p>
+
+          <p>On the intellectual and professional level, we see that open-ended architecture can achieve what we call the advancement of contemporary Saudi architecture. The concept of progress according to what the philosopher (Kant) views is linked to the mechanism (containment and transcendence), that is, the containment of intellectual controversy and the resultant current architectural practice and overcoming it into intellectual controversy and whole new architectural concept and practice. The mechanism presented by (Kant) related to the concept of paradigm shift, and we believe that this epistemological shift is fundamentally linked to enhancing the moments of inspiration among Saudi architects and the ability of Saudi architectural public to accept and seek new ideas. That is, what we aim for is to change the architectural awareness of designers and those who use architecture so that the new architectural cognitive paradigm is engulfed in the social subconscious and forms it as part of the aesthetic values ​​and taste of society.</p>
+
+          <p>Because we are a professional office whose mission is to produce architecture in the first place, we know that reformulating the thinking of designers and society in general and creating moments of architectural inspiration separate from the prevailing ideas that require experimenting with the new cognitive model and creating examples that are constantly evolving in order to learn from them, for this we adopt what we called experimental architecture. The transition from abstract ideas to testing these ideas and implementing them on the ground also requires the presence of full awareness by creating appropriate professional opportunities through which ideas can be tested. This always invites us to involve young Saudi architects in this experience. Criticism of any idea begins with dealing with it directly and facing its real challenges.</p>
+        </div>
+        
+        <div id="content-divisions">Divisions</div>
+        <div id="content-database">Database</div>
+        <div id="content-central-archive">Central Archive</div>
+        <div id="content-library-and-e-center">
+          <h1>Coming Soon!</h1>
+        </div>
+      </section>
+    </main>
 
 
 
