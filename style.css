@@ -218,7 +218,8 @@ iframe{
 
 
 #preloader {
-  background: #d9d9d9;
+  background: white url(loader.gif) no-repeat center;
+  background-size: 20%;
   height: 100vh;
   width: 100%;
   position: fixed;
