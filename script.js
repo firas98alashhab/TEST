@@ -8,6 +8,7 @@ let navbarPolicy = document.getElementById("paragraph-bg");
 let paragraphText = document.getElementById("paragraph");
 let aboutHeader = document.getElementById("about-title");
 
+
 function onClickDiscovery() {
   aboutContent.style.display = "none";
   divisionsContent.style.display = "none";
