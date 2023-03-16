@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -108,15 +111,18 @@ justify-content: space-between;
   font-weight: 500;
   opacity: 1;
 }
+
 .content {
   padding: 5vh 8vw;
-  
+  height: 100%;
+  margin-bottom: auto;
 }
 
 #content-about {
   display: flex;
   flex-direction: column;
   gap: 2vh;
+  
 }
 
 #content-about h1 {
@@ -142,7 +148,8 @@ justify-content: space-between;
 #paragraph-bg {
   background-color: white;
   width: 45vw;
-  margin-left: 20vw;
+  float: right;
+  margin-right: 50px;
   padding: 1.5vw;
   border-radius: 15px;
   display: none;
@@ -160,7 +167,7 @@ justify-content: space-between;
   font-family: 'Roboto', Arial;
   font-size: 1.13vw;
   padding: 2vw;
-  background-color: rgb(252, 252, 252);
+  background-color: white;
   line-height: 30px;
 }
 
@@ -169,6 +176,7 @@ justify-content: space-between;
     background-color: white;
     width: 80vw;
     height: 40vh;
+    float: none;
     margin-left: 1vw;
     padding-top: 35px;
     border-radius: 15px;
@@ -181,6 +189,8 @@ justify-content: space-between;
     overflow: hidden;
     overflow-y: scroll;
   }
+
+
   #paragraph {
     font-family: 'Roboto', Arial;
     font-size: 3vw;
@@ -188,4 +198,16 @@ justify-content: space-between;
     background-color: rgb(252, 252, 252);
     line-height: 30px;
   }
+}
+
+.btn {
+  float: right;
+}
+
+.foot {
+  float: right;
+}
+
+.footer {
+  padding: 20px 20px;
 }

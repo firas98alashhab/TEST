@@ -1,0 +1,61 @@
+body {
+  background-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  padding: 50px;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.btnOne {
+  opacity: 0.5;
+}
+
+.btnTwo {
+  opacity: 0.5;
+}
+
+.logoCol{
+  margin-top: 300px;
+  margin-left: 150px;
+}
+
+form {
+  width: 400px;
+  height: 600px;
+  background-color: gray;
+  padding: 50px;
+  border-radius: 80px;
+}
+
+.myForm {
+  margin-top: 150px;
+}
+
+@media (max-width: 720px) {
+  .logoCol{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 170px;
+  }
+  form {
+    width: 400px;
+    height: 600px;
+    background-color: gray;
+    padding: 50px;
+    border-radius: 80px;
+  }
+  .myForm {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+}
